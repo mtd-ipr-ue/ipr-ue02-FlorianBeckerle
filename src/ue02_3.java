@@ -13,7 +13,7 @@ public class ue02_3 {
         double x = sc.nextDouble();
         System.out.print("Y-Coordinate: ");
         double y = sc.nextDouble();
-        double dist = Math.sqrt((x*x) + (y+y));
+        double dist = Math.sqrt((x*x) + (y*y));
 
         //System.out.println("//dist:"+dist+"/x:"+x+"/y:"+y);
         sc.close();
